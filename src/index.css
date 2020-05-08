@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  
+}
+
+:root {
+    --blue: #41EAD4;
+    --yellow: #FBFF12;
+    --pink: #FF206E;
+    --black: #0C0F0A;
+    --white: #FFFFFF;
 }
 
 code {
