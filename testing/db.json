@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Train Schedule",
+            "url": "https://github.com/Ballcapz/trains"
+        },
+        {
+            "id": 2,
+            "title": "Gatsby Portfolio",
+            "url": "https://github.com/Ballcapz/ballcapz-dev"
+        },
+        {
+            "id": 3,
+            "title": "Dotnet Core Console App DI",
+            "url": "https://github.com/Ballcapz/Console-Application-Dependency-Injection"
+        }
+    ]
+}
