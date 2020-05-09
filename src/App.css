@@ -31,7 +31,12 @@
 
 .social-links {
   height: calc(10px + 2vmin);
-  width: auto;
+  /* width: auto; */
+  max-width: 60px;
+}
+
+.social-links a {
+  width: 60px;
 }
 
 .social-links img {
