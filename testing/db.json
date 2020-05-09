@@ -3,16 +3,19 @@
         {
             "id": 1,
             "title": "Train Schedule",
+            "picture": "https://picsum.photos/id/1022/200/100",
             "url": "https://github.com/Ballcapz/trains"
         },
         {
             "id": 2,
             "title": "Gatsby Portfolio",
+            "picture": "https://picsum.photos/id/1042/200/100",
             "url": "https://github.com/Ballcapz/ballcapz-dev"
         },
         {
             "id": 3,
             "title": "Dotnet Core Console App DI",
+            "picture": "https://picsum.photos/id/1052/200/100",
             "url": "https://github.com/Ballcapz/Console-Application-Dependency-Injection"
         }
     ]
