@@ -40,3 +40,25 @@ img {
 .linkText:hover {
     color: var(--black-hover);
 }
+
+@media (min-width: 900px) {
+    .project {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .project > * {
+        width: 200px;
+    }
+
+    .project .linkText {
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 1060px) {
+    .project {
+        width: 75%;
+        min-height: 200px;
+    }
+}
