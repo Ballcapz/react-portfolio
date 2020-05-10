@@ -1,0 +1,22 @@
+.App-header .social-links a img {
+    width: 40px;
+    height: auto;
+}
+
+.App-header .social-links {
+    margin-top: -50px;
+}
+
+@media (min-width: 900px) {
+    .App-header .social-links {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .App-header .social-links > * {
+        padding: 4px;
+    }
+}
