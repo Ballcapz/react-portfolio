@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Header.css';
 import GithubLogo from '../assets/images/github.svg';
 
 function Header() {
