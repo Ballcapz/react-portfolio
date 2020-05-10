@@ -23,3 +23,18 @@
 .Nav-Buttons a:hover {
     background: var(--pink-hover);
 }
+
+@media (min-width: 900px) {
+    .Nav-Buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .Nav-Buttons a:first-child {
+        margin-right: 5px;
+    }
+
+    .Nav-Buttons a:nth-child(2) {
+        margin-left: 5px;
+    }
+}
