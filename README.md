@@ -1,5 +1,16 @@
 # Basic React Portfolio
 
+# MERMAID
+
+## Standard User Funded pay in transaction
+
+```mermaid
+graph TD
+    A[CREATED] -->|TX Executed| B[AWAITING_FUNDS]
+    B -->|AFTER User pays| C[FUNDED]
+    C -->|Payout Completes| D[COMPLETED]
+```
+
 ## Run Locally
 
 - Run `npm install`
@@ -28,4 +39,3 @@ See the section about running tests for more information.
 
 Builds the app for production to the `dist/` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
